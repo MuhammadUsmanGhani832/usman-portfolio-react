@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 40px;
+}
+.navbar_links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar_link {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+}
+.navbar_links button {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Poppins";
+  padding: 0 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.active{
+    color: green;
+}
